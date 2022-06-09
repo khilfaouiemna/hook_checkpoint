@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet');
+*{
+margin:0;
+padding:0;
+}
+.App {
+  text-align: center;
+  font-family:  'Rubik Wet Paint', cursive;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ h1{
+
+  color:#e8207e;
+  text-align:center;
+  /* text-decoration:underline; */
+  line-height:50px;
+  text-shadow:3px 1px #e8207e;
+  word-spacing:15px;
+  letter-spacing:4px;
+ }
+ .text{
+  font-size:11px;
+  letter-spacing: 1px;
+  font-family:  'Rubik Wet Paint', cursive;
+  }
