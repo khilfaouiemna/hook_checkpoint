@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../Button';
 import './Style.css';
 import StarRating from "../StarRating.js";
+import { Link } from 'react-router-dom';
 function Card ({item }) {
   
         return (
@@ -17,7 +18,9 @@ function Card ({item }) {
                 <h2> {item.rating}</h2>
                
                 <StarRating/>
+                <Link to={`/moviesList/details/${item.id}`}>
                 <Button type="button" value="Details" />
+                </Link>
             
             </div> 
     

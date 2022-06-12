@@ -2,7 +2,7 @@
     padding: 2rem 1rem;
 }
 .searchBar input {
-    border: 3px solid red;
+    border: 3px #e8207e;
     border-radius: 5px;
     height: 30px;
     width: 40%;

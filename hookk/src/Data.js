@@ -5,18 +5,20 @@ import './Components/Card/Style.css';
 export const moviesList =[
     
     {
+      id:"1",
       title:"The ring",
       description:"Horror film",
       photo:Photo2,
       rating:"8/10",
     },
     {
+      id:"2",
       title:"The fault in our stars",
       description:"Romantic film",
       photo:Photo1,
       rating:"10/10",
     },
-    {
+    {id:"3",
         title:"Godzilla",
         description:"Fantasy film",
         photo:Photo3,
